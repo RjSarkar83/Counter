@@ -61,3 +61,9 @@ Original reference: https://rjsarkar83.github.io/Counter/
 
 ## Glass sample drawers update
 All five circular display islands now have transparent glass drawers. Click the handle/front to slide a drawer outward; click again to close. Desktop drawer controls or mobile Tools also offer individual and open-all controls. Miniature geometry is illustrative, not manufacturing-detail CAD. The same original 21-product collection is also represented inside the five main counter vitrines.
+
+### Round pedestal refinement
+Square outer drawer frames removed. Circular bases restored with smaller elevated glass drawers. Drawer size restored to full size: 950 mm front width, 270 mm front height, approximately 572 mm front-to-back envelope including the handle; drawer floor elevation 205 mm. Circular outer pedestal remains.
+
+### Selected counter focus
+Selecting a counter keeps it sharp while the surroundings are blurred/dimmed using an independent transparent rendering pass. Reset or Show full environment exits isolation. This adds a second WebGL rendering pass and may increase GPU usage on low-end devices.
