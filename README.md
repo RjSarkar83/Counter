@@ -43,7 +43,7 @@ Open `http://localhost:3000`. Do not open `index.html` using `file://`; browser 
 - Modern browser with WebGL and JavaScript required. Actual performance varies by device; an exhaustive physical-device/browser test has not been performed.
 - JavaScript syntax was checked before packaging; relative local asset references were checked.
 - All dimensions are nominal assembled 3D-model measurements, rounded to mm—not surveyed or fabrication-approved drawings. Exploded view is illustrative, not an engineered installation sequence.
-- Services/products use representative concept miniatures, not one bespoke model for every catalogue entry. Five Execution sample types are proposed additions.
+- Services/products use representative concept miniatures, not one bespoke model for every catalogue entry. The original 21 product names have been restored. Each has a representative miniature in its division drawer and the main counter vitrine.
 - The WhatsApp QR matrix and destination were restored from the supplied original page. Verify ownership/contact details before publishing. Target: `https://wa.me/919009001551?text=Hi%20RJ%2C%20I%20want%20to%20discuss%20a%20project.` Scanning opens WhatsApp; this site does not send messages automatically.
 - Project forms download a local brief. No server submission or backend is provided.
 - No GitHub deployment has been performed by the assistant; upload this package to publish it.
@@ -58,3 +58,6 @@ Open `http://localhost:3000`. Do not open `index.html` using `file://`; browser 
 - `.nojekyll` — GitHub Pages static-site marker
 
 Original reference: https://rjsarkar83.github.io/Counter/
+
+## Glass sample drawers update
+All five circular display islands now have transparent glass drawers. Click the handle/front to slide a drawer outward; click again to close. Desktop drawer controls or mobile Tools also offer individual and open-all controls. Miniature geometry is illustrative, not manufacturing-detail CAD. The same original 21-product collection is also represented inside the five main counter vitrines.
