@@ -70,3 +70,6 @@ Selecting a counter keeps it sharp while the surroundings are blurred/dimmed usi
 
 ### Detailed product redesign
 All 21 product models have been rebuilt with recognizable product-specific geometry, original print artwork textures and differentiated materials (rubber, chrome, paint, glazing, fabric). This covers both the drawers and main counter vitrines. These remain procedural design miniatures, not photographic scans or production CAD.
+
+### Execution drawer lighting demonstration
+Added a raised neon AV sign, cyan drawer-edge strips and a rotating miniature disco fixture with slow colour-changing translucent beams. These are additional demonstration samples, not replacements for the original catalogue. Effects become visible when the Execution drawer opens. Neon/Disco switches are under glass drawer controls (mobile: Tools). No rapid strobe; reduced-motion mode uses steady colours.
