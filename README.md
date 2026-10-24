@@ -15,3 +15,7 @@ Keep every file in this package: original-screen.html contains the original full
 Includes the golden mannequin, outdoor Day/Sunset/Night modes, acrylic business drawers, original logo with white eyes and original catalogue restoration. GitHub deployment has not been performed by the assistant.
 
 Dimensions are concept-model measurements, not fabrication-approved drawings. Some miniature products are representative models. Performance varies by device; use Graphics → Smooth on lower-powered devices.
+
+Latest update: all outdoor trees removed. Plaza, lighting and Day/Sunset/Night modes retained.
+
+Mannequin dress and torso outfit changed to red; head and arms remain metallic gold.
