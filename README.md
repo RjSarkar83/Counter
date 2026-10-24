@@ -73,3 +73,24 @@ All 21 product models have been rebuilt with recognizable product-specific geome
 
 ### Execution drawer lighting demonstration
 Added a raised neon AV sign, cyan drawer-edge strips and a rotating miniature disco fixture with slow colour-changing translucent beams. These are additional demonstration samples, not replacements for the original catalogue. Effects become visible when the Execution drawer opens. Neon/Disco switches are under glass drawer controls (mobile: Tools). No rapid strobe; reduced-motion mode uses steady colours.
+
+### Main counter business drawers
+The Counter Only main counter now has five working stationery drawers. Advertising and Execution use black acrylic fronts; Creative uses red acrylic. Each drawer contains five distinct commercial-document designs (cards, envelope/folder, letterhead, ID/pass and quotation/proposal/invoice/order variants). Click a front/handle or use drawer controls. Outer island product drawers are retained independently. The museum caption was removed and Main Counter Details moved down.
+
+### Original logo + Creative window display
+The supplied original logo is included as brand-logo.png and used in the header/favicon, tablet branding, rotating ornament and gallery header symbols. The Creative world and its main-counter bay now include a retail window miniature with display glazing, illuminated canopy, dressed mannequin, handbag and merchandising podiums. Control columns and responsive brand alignment have been refined.
+
+## Optimized release
+See QA-REPORT.md for rendering optimizations and browser-test scope. Include the new geometry-utils.js file when deploying. Graphics modes: Balanced (default), Smooth (low power), Detail (higher GPU use). The same existing Pages deployment procedure applies.
+
+## Original content restoration release
+
+- Logo white eye interiors are preserved. Only exterior white background is transparent.
+- Logo symbols removed from the five division headers.
+- `original-catalogue.js` is extracted from the supplied `original.html`: 28 services, 216 item-level entries and 21 product definitions with original specifications.
+- `original-models/A.json` through `E.json` are the original serialized bay sample assemblies, loaded into the main counter vitrines. The custom drawer miniatures and Creative window display remain separate additions.
+- `original-screen.html` preserves the original Screen UI/catalogue, including embedded photography, product specs, sectors, process and contact. Its unused original 3D renderer is disabled to avoid a second background showroom. The original page's injected Cloudflare challenge script was removed because it referred to a nonexistent local resource.
+- Main page chrome follows the original Counter 3D / Screen UI / Build sheet tabs, compact view controls and bottom A–E selector. The 3D environment retains the newer drawers and interactions, so it is not a pixel-identical copy of the old 3D scene.
+- Build sheet on the main page still describes the updated concept geometry; do not confuse it with the old counter's 2400 mm drawings.
+
+**Upload all files AND the original-models folder.** Do not omit the new original-screen.html or original-catalogue.js. Only the filenames in the ZIP are required; there is no build step.
