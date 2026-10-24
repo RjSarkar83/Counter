@@ -67,3 +67,6 @@ Square outer drawer frames removed. Circular bases restored with smaller elevate
 
 ### Selected counter focus
 Selecting a counter keeps it sharp while the surroundings are blurred/dimmed using an independent transparent rendering pass. Reset or Show full environment exits isolation. This adds a second WebGL rendering pass and may increase GPU usage on low-end devices.
+
+### Detailed product redesign
+All 21 product models have been rebuilt with recognizable product-specific geometry, original print artwork textures and differentiated materials (rubber, chrome, paint, glazing, fabric). This covers both the drawers and main counter vitrines. These remain procedural design miniatures, not photographic scans or production CAD.
