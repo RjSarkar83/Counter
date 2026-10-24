@@ -1,96 +1,17 @@
-# ArtViSiON — The Living Portfolio
+# ArtViSiON — Final GitHub Pages website
 
-Final GitHub Pages package: immersive 3D counter environment with five service islands, tablet catalogue, restored countertop accessories, brand red/silver finishes and transparent text labels (white text strips removed).
+Upload all extracted files and the original-models folder directly to your repository root. Do not upload the ZIP itself or put the files in an additional parent folder.
 
-## Publish to the existing Counter repository
+Settings → Pages → Deploy from a branch → publishing branch → /(root).
 
-1. Extract this ZIP on your computer.
-2. Open your `rjsarkar83/Counter` repository on GitHub. Back up your current website before replacing files.
-3. Choose **Add file → Upload files**.
-4. Upload the extracted files **directly into the repository root**, not inside an extra folder. Replace `index.html` with this version; include `app.js`, `style.css`, `three.js` and the license file. Keep any unrelated existing assets you still need.
-5. Commit the upload.
-6. In **Settings → Pages**, choose **Deploy from a branch**, your publishing branch (usually `main`), and **/(root)**. Save. If Pages is already configured this way, no setting change is needed.
-7. After GitHub's deployment finishes, open `https://rjsarkar83.github.io/Counter/`. If the old design appears, hard-refresh or clear that site's cache.
+No npm install or build command is needed. To preview locally, run:
 
-No build step, npm install, API key or CDN is required. `.nojekyll` disables Jekyll processing. The old `?tab=3d` link also loads the main experience; query-based routing is not used in this replacement.
+    python -m http.server 3000
 
-**This is a replacement homepage, not a merge with the old project's source.** Old kiosk pages, engineering sheets and external files are not included in this ZIP; preserve those in your repository if needed.
+Then open http://localhost:3000. Opening index.html directly with file:// is not supported.
 
-## Local preview
+Keep every file in this package: original-screen.html contains the original full catalogue; original-catalogue.js and original-models/ supply original details and 3D samples. three.js and geometry-utils.js are runtime dependencies. THREE-LICENSE.txt must remain with the distribution.
 
-From this directory run:
+Includes the golden mannequin, outdoor Day/Sunset/Night modes, acrylic business drawers, original logo with white eyes and original catalogue restoration. GitHub deployment has not been performed by the assistant.
 
-```sh
-python -m http.server 3000
-```
-
-Open `http://localhost:3000`. Do not open `index.html` using `file://`; browser module restrictions can prevent it from working.
-
-## Features and controls
-
-- Desktop: drag to orbit, wheel to zoom.
-- Touch: drag to orbit, two-finger pinch to zoom.
-- Select a division or click its island to focus the complete counter.
-- Mobile: Tools opens the compact control panel.
-- Tablet: click the physical screen or **Open touchscreen tablet** to browse services/products.
-- **Explode all** separates the main counter, five islands, tablet, accessories and lighting. The separation slider adjusts spacing; Reassemble restores the saved positions.
-- **Dimensions** opens measurement guides and a schedule. This mode returns the design to its assembled pose.
-- `R`: reset; `+` / `-`: zoom; `1`–`5`: focus division; `Esc`: close dialog/panel.
-- Cinema mode hides interface panels; press Escape to leave.
-
-## Important notes
-
-- Modern browser with WebGL and JavaScript required. Actual performance varies by device; an exhaustive physical-device/browser test has not been performed.
-- JavaScript syntax was checked before packaging; relative local asset references were checked.
-- All dimensions are nominal assembled 3D-model measurements, rounded to mm—not surveyed or fabrication-approved drawings. Exploded view is illustrative, not an engineered installation sequence.
-- Services/products use representative concept miniatures, not one bespoke model for every catalogue entry. The original 21 product names have been restored. Each has a representative miniature in its division drawer and the main counter vitrine.
-- The WhatsApp QR matrix and destination were restored from the supplied original page. Verify ownership/contact details before publishing. Target: `https://wa.me/919009001551?text=Hi%20RJ%2C%20I%20want%20to%20discuss%20a%20project.` Scanning opens WhatsApp; this site does not send messages automatically.
-- Project forms download a local brief. No server submission or backend is provided.
-- No GitHub deployment has been performed by the assistant; upload this package to publish it.
-
-## Files
-
-- `index.html` — entry page
-- `style.css` — responsive interface
-- `app.js` — geometry, camera, catalogue and interaction
-- `three.js` — local Three.js 0.160.0 dependency
-- `THREE-LICENSE.txt` — dependency license
-- `.nojekyll` — GitHub Pages static-site marker
-
-Original reference: https://rjsarkar83.github.io/Counter/
-
-## Glass sample drawers update
-All five circular display islands now have transparent glass drawers. Click the handle/front to slide a drawer outward; click again to close. Desktop drawer controls or mobile Tools also offer individual and open-all controls. Miniature geometry is illustrative, not manufacturing-detail CAD. The same original 21-product collection is also represented inside the five main counter vitrines.
-
-### Round pedestal refinement
-Square outer drawer frames removed. Circular bases restored with smaller elevated glass drawers. Drawer size restored to full size: 950 mm front width, 270 mm front height, approximately 572 mm front-to-back envelope including the handle; drawer floor elevation 205 mm. Circular outer pedestal remains.
-
-### Selected counter focus
-Selecting a counter keeps it sharp while the surroundings are blurred/dimmed using an independent transparent rendering pass. Reset or Show full environment exits isolation. This adds a second WebGL rendering pass and may increase GPU usage on low-end devices.
-
-### Detailed product redesign
-All 21 product models have been rebuilt with recognizable product-specific geometry, original print artwork textures and differentiated materials (rubber, chrome, paint, glazing, fabric). This covers both the drawers and main counter vitrines. These remain procedural design miniatures, not photographic scans or production CAD.
-
-### Execution drawer lighting demonstration
-Added a raised neon AV sign, cyan drawer-edge strips and a rotating miniature disco fixture with slow colour-changing translucent beams. These are additional demonstration samples, not replacements for the original catalogue. Effects become visible when the Execution drawer opens. Neon/Disco switches are under glass drawer controls (mobile: Tools). No rapid strobe; reduced-motion mode uses steady colours.
-
-### Main counter business drawers
-The Counter Only main counter now has five working stationery drawers. Advertising and Execution use black acrylic fronts; Creative uses red acrylic. Each drawer contains five distinct commercial-document designs (cards, envelope/folder, letterhead, ID/pass and quotation/proposal/invoice/order variants). Click a front/handle or use drawer controls. Outer island product drawers are retained independently. The museum caption was removed and Main Counter Details moved down.
-
-### Original logo + Creative window display
-The supplied original logo is included as brand-logo.png and used in the header/favicon, tablet branding, rotating ornament and gallery header symbols. The Creative world and its main-counter bay now include a retail window miniature with display glazing, illuminated canopy, dressed mannequin, handbag and merchandising podiums. Control columns and responsive brand alignment have been refined.
-
-## Optimized release
-See QA-REPORT.md for rendering optimizations and browser-test scope. Include the new geometry-utils.js file when deploying. Graphics modes: Balanced (default), Smooth (low power), Detail (higher GPU use). The same existing Pages deployment procedure applies.
-
-## Original content restoration release
-
-- Logo white eye interiors are preserved. Only exterior white background is transparent.
-- Logo symbols removed from the five division headers.
-- `original-catalogue.js` is extracted from the supplied `original.html`: 28 services, 216 item-level entries and 21 product definitions with original specifications.
-- `original-models/A.json` through `E.json` are the original serialized bay sample assemblies, loaded into the main counter vitrines. The custom drawer miniatures and Creative window display remain separate additions.
-- `original-screen.html` preserves the original Screen UI/catalogue, including embedded photography, product specs, sectors, process and contact. Its unused original 3D renderer is disabled to avoid a second background showroom. The original page's injected Cloudflare challenge script was removed because it referred to a nonexistent local resource.
-- Main page chrome follows the original Counter 3D / Screen UI / Build sheet tabs, compact view controls and bottom A–E selector. The 3D environment retains the newer drawers and interactions, so it is not a pixel-identical copy of the old 3D scene.
-- Build sheet on the main page still describes the updated concept geometry; do not confuse it with the old counter's 2400 mm drawings.
-
-**Upload all files AND the original-models folder.** Do not omit the new original-screen.html or original-catalogue.js. Only the filenames in the ZIP are required; there is no build step.
+Dimensions are concept-model measurements, not fabrication-approved drawings. Some miniature products are representative models. Performance varies by device; use Graphics → Smooth on lower-powered devices.
